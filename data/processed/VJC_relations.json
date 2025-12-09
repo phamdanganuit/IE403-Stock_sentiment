@@ -1,0 +1,37 @@
+{
+    "target": "VJC",
+    "top_related": [
+        "BAV",
+        "HVN",
+        "THACO",
+        "ACV",
+        "SGN",
+        "PLX",
+        "SAS",
+        "VCB",
+        "VTR",
+        "TRV"
+    ],
+    "stats": {
+        "BAV": 394,
+        "HVN": 116,
+        "THACO": 32,
+        "ACV": 9,
+        "SGN": 9,
+        "PLX": 7,
+        "SAS": 4,
+        "VCB": 3,
+        "VTR": 3,
+        "TRV": 3,
+        "UDJ": 3,
+        "BVH": 3,
+        "VPL": 3,
+        "SHS": 3,
+        "BSR": 3,
+        "NAS": 2,
+        "EVF": 2,
+        "VHM": 2,
+        "VRE": 2,
+        "DDH": 1
+    }
+}

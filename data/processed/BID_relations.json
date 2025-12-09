@@ -1,0 +1,37 @@
+{
+    "target": "BID",
+    "top_related": [
+        "CTG",
+        "TCB",
+        "VCB",
+        "ACB",
+        "THACO",
+        "TCX",
+        "BVH",
+        "KBC",
+        "VPX",
+        "MBB"
+    ],
+    "stats": {
+        "CTG": 85,
+        "TCB": 72,
+        "VCB": 70,
+        "ACB": 43,
+        "THACO": 22,
+        "TCX": 18,
+        "BVH": 12,
+        "KBC": 12,
+        "VPX": 12,
+        "MBB": 11,
+        "VPB": 8,
+        "HAG": 7,
+        "PLX": 7,
+        "VND": 5,
+        "DCM": 5,
+        "AGR": 5,
+        "BAV": 5,
+        "VCI": 5,
+        "PDR": 4,
+        "BSI": 4
+    }
+}

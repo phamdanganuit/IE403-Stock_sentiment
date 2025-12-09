@@ -37,10 +37,6 @@ ENV/
 *.swo
 *~
 
-# Data files (if large)
-*.csv
-*.json
-!data/keywords/*.json
 
 # Credentials & Config
 config.txt

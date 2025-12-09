@@ -1,0 +1,37 @@
+{
+    "target": "FPT",
+    "top_related": [
+        "VNG",
+        "CMG",
+        "VNZ",
+        "THACO",
+        "FOX",
+        "VGI",
+        "VTP",
+        "PLX",
+        "FRT",
+        "ELC"
+    ],
+    "stats": {
+        "VNG": 137,
+        "CMG": 120,
+        "VNZ": 30,
+        "THACO": 21,
+        "FOX": 20,
+        "VGI": 10,
+        "VTP": 5,
+        "PLX": 5,
+        "FRT": 4,
+        "ELC": 4,
+        "GEG": 4,
+        "BAV": 3,
+        "KBC": 3,
+        "SJG": 3,
+        "HVN": 2,
+        "CTD": 2,
+        "MEY": 2,
+        "RAL": 2,
+        "VCI": 2,
+        "VGT": 2
+    }
+}

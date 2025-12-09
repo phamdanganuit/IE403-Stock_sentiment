@@ -1,0 +1,37 @@
+{
+    "target": "VIC",
+    "top_related": [
+        "THACO",
+        "VHM",
+        "VPL",
+        "VFS",
+        "TMT",
+        "VRE",
+        "VEF",
+        "BAV",
+        "KBC",
+        "THA"
+    ],
+    "stats": {
+        "THACO": 354,
+        "VHM": 58,
+        "VPL": 29,
+        "VFS": 23,
+        "TMT": 18,
+        "VRE": 11,
+        "VEF": 8,
+        "BAV": 7,
+        "KBC": 6,
+        "THA": 5,
+        "DCM": 5,
+        "PLX": 5,
+        "EVF": 5,
+        "BID": 3,
+        "VCB": 3,
+        "VCI": 3,
+        "SSI": 3,
+        "POW": 3,
+        "DIG": 3,
+        "LTG": 3
+    }
+}
