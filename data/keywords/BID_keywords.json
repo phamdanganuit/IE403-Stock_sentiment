@@ -1,0 +1,37 @@
+{
+    "ticker": "BID",
+    "keywords_direct": [
+        "Ngân hàng BIDV",
+        "Ngân hàng Đầu tư và Phát triển",
+        "Phan Đức Tú",
+        "Lê Ngọc Lâm",
+        "BIDV SmartBanking",
+        "Hana Bank",
+        "Tăng vốn điều lệ BIDV",
+        "Phát hành cổ phiếu riêng lẻ BIDV"
+    ],
+    "keywords_competitors": [
+        "Vietcombank",
+        "VCB",
+        "VietinBank",
+        "CTG",
+        "Agribank",
+        "Techcombank",
+        "TCB",
+        "VPBank",
+        "MBBank",
+        "ACB"
+    ],
+    "keywords_macro": [
+        "Lãi suất điều hành Ngân hàng Nhà nước",
+        "Room tín dụng",
+        "Tăng trưởng tín dụng",
+        "Nợ xấu ngân hàng",
+        "Thông tư 02 cơ cấu nợ",
+        "Thị trường trái phiếu doanh nghiệp",
+        "Lãi suất huy động",
+        "Basel II",
+        "Basel III",
+        "Tỷ giá trung tâm"
+    ]
+}

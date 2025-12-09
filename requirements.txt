@@ -1,0 +1,15 @@
+fake_useragent
+datetime
+bs4
+requests
+pandas
+numpy
+vnstock3
+json
+os
+re
+glob
+pandas
+matplotlib
+seaborn
+datetime
