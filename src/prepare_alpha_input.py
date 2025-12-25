@@ -9,8 +9,8 @@ SENTIMENT_DIR = "data/sentiment"    # Input 2: Sentiment (từ bước LLM trư�
 ALPHA_INPUT_DIR = "data/alpha_input"       # Output: Nguyên liệu cho Alpha
 os.makedirs(ALPHA_INPUT_DIR, exist_ok=True)
 
-TARGET_TICKERS = ["FPT"]
-# TARGET_TICKERS = ["VIC", "FPT", "BID", "VNM", "VJC"]
+# TARGET_TICKERS = ["FPT"]
+TARGET_TICKERS = ["VIC", "FPT", "BID", "VNM", "VJC"]
 
 def load_sentiment(ticker):
     """Đọc file sentiment và group theo ngày"""
@@ -65,8 +65,8 @@ def process_features(ticker):
         # Merge vào DataFrame chính
         df = df.join(daily_sent.rename('sentiment_score'), how='left')
         
-        # Fill NaN = 0 (Ngày không có tin)
-        df['sentiment_score'] = df['sentiment_score'].fillna(0)
+        # Fill NaN = giá trị ngày trước đó gần nhất (forward fill)
+        df['sentiment_score'] = df['sentiment_score'].ffill().fillna(0)
         
         # Feature phái sinh từ Sentiment
         df['sentiment_diff'] = df['sentiment_score'].diff() # Thay đổi so với hôm qua

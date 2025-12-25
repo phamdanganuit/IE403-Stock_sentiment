@@ -1,0 +1,7 @@
+{
+    "alpha_1": "df['sentiment_ma5'] * (df['close'] - df['sma_20'])",
+    "alpha_2": "(df['sentiment_score'] > 0) * df['volume']",
+    "alpha_3": "np.where(df['rsi'] < 30, df['sentiment_score'] * df['close'], 0)",
+    "alpha_4": "df['sentiment_diff'] * (df['bb_upper'] - df['close'])",
+    "alpha_5": "df['vwap'] * (df['close'] - df['bb_lower']) * np.sign(df['sentiment_score'])"
+}
