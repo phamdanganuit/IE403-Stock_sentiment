@@ -13,3 +13,4 @@ pandas
 matplotlib
 seaborn
 datetime
+yfinance
